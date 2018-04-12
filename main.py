@@ -1,7 +1,7 @@
 import  cv2
 import numpy as np
 
-camera = cv2.VideoCapture('1.mp4')
+camera = cv2.VideoCapture('2.avi')
 
 es = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (9, 4))
 """返回指定形状和尺寸的的结构元素，矩形：MORPH_RECT，交叉形：MORPH_CORSS，椭圆形：MORPH_ELLIPSE"""
